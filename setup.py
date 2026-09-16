@@ -31,8 +31,8 @@ setup(
     ],
     keywords = 'AVM FritzBox',
     install_requires = [
-        'lxml==4.3.4',
-        'requests==2.22.0',
+        'lxml==4.9.1',
+        'requests==2.32.4',
     ],
     entry_points={'console_scripts': [
         'fritzconnection = fritzconnection.fritzconnection:main',
